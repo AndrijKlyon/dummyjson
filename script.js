@@ -45,6 +45,7 @@ authForm.onsubmit = async function (event) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "https://andrijklyon.github.io",
     },
     body: JSON.stringify({
       username: "emilys",
